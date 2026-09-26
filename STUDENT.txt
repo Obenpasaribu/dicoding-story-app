@@ -19,7 +19,7 @@ VAPID public key mengikuti dokumentasi resmi Story API (lihat src/scripts/config
 konstanta PUSH_MSG_VAPID_PUBLIC_KEY). Tidak ada API key rahasia yang perlu dijaga di
 sisi klien — VAPID public key memang didesain untuk dipakai secara terbuka.
 
-VAPID_PUBLIC_KEY = BCCs2eonMI-6H2ctvFaWg-UYdDv35QOK1e-2xHfvNfb2nH0lLbnjWfyacZOs5NBGH8lecuKB0vhH_zvsTNQhSDo
+VAPID_PUBLIC_KEY = BCCs2eonMI-6H2ctvFaWg-UYdDv387Vno_bzUzALpB442r2lCnsHmtrx8biyPi_E-1fSGABK_Qs_GlvPoJJqxbk
 
 URL Deployment (Kriteria 5)
 ===========================
