@@ -23,5 +23,5 @@ VAPID_PUBLIC_KEY = BCCs2eonMI-6H2ctvFaWg-UYdDv35QOK1e-2xHfvNfb2nH0lLbnjWfyacZOs5
 
 URL Deployment (Kriteria 5)
 ===========================
-TODO: ganti baris di bawah ini dengan URL hasil deploy kamu sebelum submit.
-URL: https://GANTI-DENGAN-URL-DEPLOYMENT-KAMU.netlify.app
+URL WEB: https://submit2.netlify.app/
+URL GITHUB: https://github.com/Obenpasaribu/dicoding-story-app
