@@ -1,0 +1,27 @@
+Catatan API Key
+===============
+
+Aplikasi ini menggunakan Leaflet sebagai library peta digital dengan tile layer:
+
+1. OpenStreetMap Standard - https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png
+2. Esri World Imagery (satelit) - https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}
+
+Kedua tile provider di atas bersifat publik dan TIDAK memerlukan API key,
+sehingga tidak ada API key yang perlu disertakan pada berkas ini.
+
+Story API yang digunakan:
+Base URL: https://story-api.dicoding.dev/v1
+(API ini juga tidak memerlukan API key, hanya token hasil login untuk endpoint yang membutuhkan autentikasi.)
+
+Push Notification (Kriteria 2)
+===============================
+VAPID public key mengikuti dokumentasi resmi Story API (lihat src/scripts/config.js,
+konstanta PUSH_MSG_VAPID_PUBLIC_KEY). Tidak ada API key rahasia yang perlu dijaga di
+sisi klien — VAPID public key memang didesain untuk dipakai secara terbuka.
+
+VAPID_PUBLIC_KEY = BCCs2eonMI-6H2ctvFaWg-UYdDv35QOK1e-2xHfvNfb2nH0lLbnjWfyacZOs5NBGH8lecuKB0vhH_zvsTNQhSDo
+
+URL Deployment (Kriteria 5)
+===========================
+TODO: ganti baris di bawah ini dengan URL hasil deploy kamu sebelum submit.
+URL: https://GANTI-DENGAN-URL-DEPLOYMENT-KAMU.netlify.app

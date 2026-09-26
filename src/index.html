@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dicoding Story</title>
+  <meta name="description" content="Bagikan ceritamu seputar Dicoding lengkap dengan lokasi di peta." />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <meta name="theme-color" content="#16233a" />
+  <link rel="apple-touch-icon" href="icons/icon-192.png" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Dicoding Story" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <a href="#main-content" class="skip-link" id="skip-link">Lewati ke konten utama</a>
+
+  <header class="app-header">
+    <div class="app-header__bar">
+      <a href="#/" class="app-header__brand">
+        <span class="app-header__brand-mark" aria-hidden="true"></span>
+        Dicoding Story
+      </a>
+      <button id="drawer-button" class="app-header__drawer-button" aria-expanded="false" aria-controls="navigation-drawer">
+        <span class="sr-only">Buka menu navigasi</span>
+        <span class="app-header__burger" aria-hidden="true"></span>
+      </button>
+    </div>
+    <nav id="navigation-drawer" class="navigation-drawer" aria-label="Navigasi utama">
+      <ul id="nav-list" class="navigation-drawer__list">
+        <!-- diisi App berdasarkan status login -->
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content" class="app-content" tabindex="-1">
+    <!-- konten halaman dirender di sini -->
+  </main>
+
+  <footer class="app-footer">
+    <p>Dicoding Story &mdash; dibuat untuk submission kelas Front-End Web.</p>
+  </footer>
+</body>
+</html>

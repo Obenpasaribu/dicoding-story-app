@@ -1,0 +1,74 @@
+{
+  "id": "/",
+  "name": "Dicoding Story",
+  "short_name": "DicodingStory",
+  "description": "Bagikan ceritamu seputar Dicoding lengkap dengan lokasi di peta digital.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "lang": "id",
+  "dir": "ltr",
+  "background_color": "#f6f4ee",
+  "theme_color": "#16233a",
+  "categories": ["social", "photo", "lifestyle"],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshots/home-narrow.png",
+      "sizes": "540x960",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Beranda Dicoding Story di perangkat mobile"
+    },
+    {
+      "src": "screenshots/home-wide.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Beranda Dicoding Story di layar desktop"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Tambah Story",
+      "short_name": "Tambah",
+      "description": "Langsung menuju form tambah story baru",
+      "url": "./index.html#/add",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Beranda",
+      "short_name": "Beranda",
+      "description": "Lihat daftar story terbaru di peta",
+      "url": "./index.html#/",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Story Tersimpan",
+      "short_name": "Tersimpan",
+      "description": "Lihat story yang disimpan offline",
+      "url": "./index.html#/saved",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    }
+  ]
+}

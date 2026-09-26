@@ -1,0 +1,12 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# Aplikasi ini adalah SPA dengan hash-routing (mis. /#/add), jadi fragment
+# setelah "#" tidak pernah dikirim ke server. Redirect ini hanya jaring
+# pengaman untuk permintaan langsung ke path lain agar tetap kembali ke
+# index.html alih-alih menampilkan 404 Netlify.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
